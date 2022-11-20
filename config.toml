@@ -1,0 +1,22 @@
+theme = "gruber-darker"
+
+[editor]
+line-number = "relative"
+color-modes = true
+
+[editor.cursor-shape]
+insert = "bar"
+select = "underline"
+
+[editor.statusline]
+right = ["diagnostics", "selections", "position", "file-encoding", "file-line-ending", "file-type"]
+separator = ""
+
+[editor.whitespace.render]
+tab = "all"
+
+[editor.whitespace.characters]
+tabpad = "·"
+
+[editor.indent-guides]
+render = true
