@@ -24,13 +24,15 @@
 "hint" = "wisteria"
 
 "ui.background" = { fg = "foreground-2", bg = "background_1" }
-"ui.virtual.whitespace" = "background_4"
-"ui.virtual.indent-guide" = "background_4"
 "ui.linenr" = "background_2"
 "ui.linenr.selected" = "yellow"
 "ui.selection" = { bg = "#3a3d41" }
 
+"ui.virtual.whitespace" = "background_4"
+"ui.virtual.indent-guide" = "background_4"
 
+"ui.statusline.insert" = { fg = "background-1", bg = "yellow" }
+"ui.statusline.select" = { fg = "background-1", bg = "wisteria" }
 
 [palette]
 # gruber darker palette colors
