@@ -12,13 +12,14 @@
 "function" = { fg = "#95a99f" }
 "function.builtin" = { fg = "yellow" }
 "ui.cursor" = { fg = "background-1", bg = "yellow", modifiers = ["rapid_blink"] }
+"ui.cursor.match" = { fg = "background-1", bg = "yellow-1" }
 "ui.popup" = { bg = "background" }
 
 "diff.plus" = "green"
 "diff.delta" = "yellow"
 "diff.minus" = "red"
 
-"warning" = "yellow"
+"warning" = "yellow-1"
 "error" = "red"
 "info" = "quartz"
 "hint" = "wisteria"
@@ -53,6 +54,7 @@ red-1 = "#c73c3f"
 red = "#f43841"
 red_1 = "#ff4f58"
 green = "#73c936"
+yellow-1 = "#9e8400"
 yellow = "#ffdd33"
 brown = "#cc8c3c"
 quartz = "#95a99f"
